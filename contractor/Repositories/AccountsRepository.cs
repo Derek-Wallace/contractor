@@ -28,7 +28,7 @@ namespace contractor.Repositories
         internal Account Create(Account newAccount)
         {
             string sql = @"
-            INSERT INTO Accounts
+            INSERT INTO accounts
               (name, picture, email, id)
             VALUES
               (@Name, @Picture, @Email, @Id)";
